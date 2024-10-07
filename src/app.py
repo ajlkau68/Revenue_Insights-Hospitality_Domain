@@ -6,7 +6,6 @@ from data.source import DataSource
 
 DATA_PATH = 'full_bookings.csv'
 
-#src\data\full_bookings.csv
 def main() -> None:
 
     data = load_data(DATA_PATH)
@@ -16,7 +15,7 @@ def main() -> None:
     server = app.server
     app.title = 'AtliQ Grands Dashboard'
     app.layout = create_layout(app, data)
-    app.run(debug=False)
+    app.run_server(debug=True)
 
 
 if __name__ == '__main__':
