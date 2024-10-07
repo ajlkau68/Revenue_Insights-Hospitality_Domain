@@ -6,17 +6,15 @@ from data.source import DataSource
 
 DATA_PATH = 'full_bookings.csv'
 
-def main() -> None:
 
-    data = load_data(DATA_PATH)
-    data = DataSource(data)
+data = load_data(DATA_PATH)
+data = DataSource(data)
 
-    app = Dash(__name__, external_stylesheets=[BOOTSTRAP])
-    server = app.server
-    app.title = 'AtliQ Grands Dashboard'
-    app.layout = create_layout(app, data)
-    app.run_server(debug=True)
+app = Dash(__name__, external_stylesheets=[BOOTSTRAP])
+server = app.server
+app.title = 'AtliQ Grands Dashboard'
+app.layout = create_layout(app, data)
 
 
 if __name__ == '__main__':
-    main()
+    app.run_server(debug=True)
