@@ -213,12 +213,12 @@ If you'd like to analyze the data further or run your visualizations, follow the
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/hospital-wait-time-analysis.git
+   git clone https://github.com/yourusername/revenue_insights-hospitality_domain.git
    ```
 
 2. **Navigate to the project directory**:
    ```bash
-   cd hospital-wait-time-analysis
+   cd revenue_insights-hospitality_domain
    ```
 
 3. **Install dependencies** (if needed):
@@ -247,7 +247,7 @@ Contributions to this project are welcome! Please open an issue to discuss any m
 ## Screenshots
 
 ### Dashboard Overview
-![Blue Hart Hospital Dashboard](https://github.com/ajlkau68/Hospital_Wait_Time_Analysis/blob/main/src/assets/Blue-Hart-Dashboard.png)
+![AtliQ Grands Dashboard](https://github.com/ajlkau68/Revenue_Insights-Hospitality_Domain/blob/main/src/assets/Atliq-Grands-Dashboard.png)
 
 
 
