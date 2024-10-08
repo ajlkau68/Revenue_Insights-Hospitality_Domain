@@ -1,4 +1,4 @@
-﻿# 🏨 **Hotel Revenue_Insights - Hospitality_Domain**
+﻿# 🏨 **Hotel Revenue Insights - Hospitality Domain**
 
 ## Table of Contents
 - [Project Overview](#project-overview)
